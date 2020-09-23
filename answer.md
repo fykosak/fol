@@ -1,6 +1,7 @@
 # Answer factories
 ## `IValidationFactory`
-### `abstract public validate(formData):bool`
+### `abstract public validate(formData):string`
+reutrn state of answer valid|invalid|pedding...
 
 ## `Default factory` : `IValidationFactory`
 ### `validate(formData):bool`
